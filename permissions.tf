@@ -23,6 +23,6 @@ resource "google_project_iam_binding" "project" {
   condition {
     title       = "limit_access_to_bucket"
     description = "Limit access to specific bucket"
-    expression  = "resource.name.startsWith('projects/_/buckets/${resource.google_storage_bucket.fireflies-ai-gcp-byos-bucket.id}/objects/')"
+    expression  = "resource.name.startsWith('projects/_/buckets/${var.bucket_name}/objects/')"
   }
 }
