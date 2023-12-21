@@ -1,6 +1,6 @@
-project_id = "puppet-cost-reduction-test"
+project_id = "portfolio-rgautam98"
 credentails_file = "/Users/rg/Downloads/puppet-cost-reduction-test-db9874bbe687.json"
-bucket_name = "fireflies-ai-gcp-byos-bucket"
+bucket_name = "portfolio-rgautam98.appspot.com"
 
 
 # Do not change these values unless advised by fireflies team
