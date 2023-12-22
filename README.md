@@ -45,6 +45,10 @@ storage.objects.get
 storage.objects.list
 storage.objects.update
 storage.objects.getIamPolicy
+
+storage.buckets.list
+storage.buckets.get
+storage.buckets.getIamPolicy
 ```
 
 These permissions are not wildcard permissions and are bound to the bucket specified by the customer.  This is defined in the condition section of the permissions.tf file
